@@ -1,0 +1,96 @@
+html {
+    margin: 0;
+}
+
+span {
+    display: block;
+}
+
+.canvas {
+    margin: 100px auto 100px;
+    width: 80%;
+    text-align: center;
+}
+
+.button {
+    width: 200px;
+    height: 200px;
+    border: solid black 2px;
+    display: inline-block;
+    border-radius: 50%;
+
+}
+
+
+#purple {
+    background: #AD49E1;
+    background-image: url(./images/purple.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#orange {
+    background: #EB5B00;
+    background-image: url(./images/orange1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#green {
+    background: #8EAC50;
+    background-image: url(./images/green.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#yellow {
+    background: #FFB200;
+    background-image: url(./images/Yellow.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#dark-Pink {
+    background: #FF4545;
+    background-image: url(./images/red.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#lemon {
+    background: #F8E559;
+    background-image: url(./images/lemon1.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+}
+
+.my-element {
+    display: inline-block;
+    margin: 0 0.5rem;
+
+    animation: bounce;
+    /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 3s;
+    /* don't forget to set a duration! */
+}
+
+.animate__animated.animate__bounce {
+    --animate-duration: 2s;
+}
+
+/* This changes all the animations globally */
+:root {
+    --animate-duration: 800ms;
+    --animate-delay: 0.9s;
+}
